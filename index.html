@@ -1,0 +1,61 @@
+   <!DOCTYPE html>
+   <html lang="pt">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+       <title>DESAFIO TRI JAY</title>
+   </head>
+   <body onload="mudaopersonagem()">
+
+    <style type="text/css">
+        body{
+        background-image: url(rick.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        div{
+            width: 30%;
+            height: 400px;
+            border: solid 1px;
+            float: left;
+            margin-left: 2%;
+            text-align: center;
+        }
+        button{
+            margin: 2% 0 0 40% ;
+            width: 20%;
+            background-color: darkturquoise;
+            height: 35px;
+        }
+    </style>
+    
+    <script src = "desafio.js"></script>
+
+    <div>
+        <img id="myImage1" src=""><br>
+        NOME: <label id="nome1"></label><br>
+        STATUS: <label id="vivo1"></label><br>
+        ESPECIE: <label id="especie1"></label><br>
+    </div>
+    <div>
+        <img id="myImage2" src=""><br>
+        NOME: <label id="nome2"></label><br>
+        STATUS: <label id="vivo2"></label><br>
+        ESPECIE: <label id="especie2"></label><br>
+    </div>
+    <div>
+        <img id="myImage3" src=""><br>
+        NOME: <label id="nome3"></label><br>
+        STATUS: <label id="vivo3"></label><br>
+        ESPECIE: <label id="especie3"></label><br>
+    </div>
+    
+    <button  onclick="mudaopersonagem()">Ver Personagens do Rick and Morty</button>
+         
+   </body>
+   </html>
+     
+    
+    
